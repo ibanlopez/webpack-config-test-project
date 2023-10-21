@@ -8,7 +8,7 @@ Funcitonalities incluided:
 
 -   Babel and _@babel/preset-env_
 
-    For mmodern JS transpiling.
+    For modern JS transpiling.
 
 -   CSS, SASS, PostCSS with _post-preset-env_.
 
@@ -42,7 +42,7 @@ Funcitonalities incluided:
 
     With the new Webpack 5 Asset Module type.
 
--   Quickly getting the app/site hosted on Vercel.
+-   Quickly getting the app/site hosted on **Vercel**.
 
 Steps taken:
 
