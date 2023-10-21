@@ -4,5 +4,7 @@ This project is a full configuration of a test project to config WebPack followi
 
 1. git init locally
 2. Create GitHub repo
-3.
-# webpack-config-test-project
+3. init a project with
+   ```
+       npm ini -y
+   ```
