@@ -6,15 +6,42 @@ It consists of a full SPA setup hosted with some basic CI, so every time that fi
 
 Funcitonalities incluided:
 
-- Babel and @babel/preset-env for mmodern JS transpiling.
-- CSS, SASS, PostCSS with post-preset-env for CSS fallbacks for better cross-browser support.
-- Browserslist config for customizing the browsers wanted to be supported for JS and CSS, all in one place.
-- Outputing all CSS to a file with mini-css-extract-plugin and hot reloading. (to do: in the future inile css for ==critical css, using style-loader==).
-- HTML templates with html-webpack-plugin-
-- Cleaning the output folder every build with clean-webpack-plugin-
-- React with the automativ importing functionality supported in React 17+ through Babel.
-- React Fast Refresh in Webpack: The new hot module reloading tool supported by the React team.
-- Outputting or bundling images with the new Webpack 5 Asset Module type.
+- Babel and _@babel/preset-env_
+
+* For mmodern JS transpiling.
+
+- CSS, SASS, PostCSS with _post-preset-env_.
+
+* For CSS fallbacks for better cross-browser support.
+
+- Browserslist config.
+
+* For customizing the browsers wanted to be supported for JS and CSS, all in one place.
+
+- _mini-css-extract-plugin_ and hot reloading.
+
+* For all CSS Outputing to a file. (to do: in the future inile css for **critical css**, using _style-loader_)
+
+- HTML templates.
+
+* With _html-webpack-plugin_
+
+- Cleaning the output folder.
+
+* every build with _clean-webpack-plugin_
+
+- React.
+
+* With the automatic importing functionality supported in React 17+ through Babel.
+
+- React Fast Refresh in Webpack.
+
+* The new hot module reloading tool supported by the React team.
+
+- Outputting or bundling images.
+
+* With the new Webpack 5 Asset Module type.
+
 - Quickly getting the app/site hosted on Vercel.
 
 Steps taken:
